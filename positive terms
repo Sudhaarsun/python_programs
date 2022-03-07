@@ -1,0 +1,33 @@
+n=int(input("Enter the no of terms"))
+
+n1=0
+
+n2=1
+
+c=0
+
+if n<=0:
+
+  print("Not Valid")
+
+elif n==1:
+
+  print("Fibonacci Sequence upto",n,"is")
+
+  print(n1)
+
+else:
+
+  print("Fibonacci sequence is")
+
+  while c<n:
+
+    print(n1)
+
+    a=n1+n2
+
+    n1=n2
+
+    n2=a
+
+    c=c+1
